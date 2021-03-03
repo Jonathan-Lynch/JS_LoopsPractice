@@ -38,3 +38,11 @@ do {
 } while (swapped);
 
 console.log(unsortedArr);
+
+
+const bubbleSort2 = (arr) => {
+
+}
+
+const arr = [10, 5, 7, 2, 9];
+console.log
