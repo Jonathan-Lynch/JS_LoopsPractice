@@ -40,9 +40,19 @@ do {
 console.log(unsortedArr);
 
 
-const bubbleSort2 = (arr) => {
-
+const bubbleSort2 = (arr2) => {
+  let temp2;
+  for (let i = arr2.length; i > 0; i--) {
+    for (let j = 0; j < i; j++) {
+      if (arr2[j] > arr2[j + 1]) {
+        temp2 = arr2[j]
+        arr2[j] = arr2[j + 1]
+        arr2[j + 1] = temp2
+      }
+    }
+  }
+  return arr2
 }
 
-const arr = [10, 5, 7, 2, 9];
-console.log
+const arr2 = [10, 5, 7, 2, 9];
+console.log(bubbleSort(arr2))
