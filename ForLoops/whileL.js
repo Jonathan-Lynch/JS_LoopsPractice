@@ -7,3 +7,14 @@ function while_Loop() {
     }
     console.log(text)
 }
+
+function carLoop() {
+    var cars = ["BMW", "Volvo", "Saab", "Ford"];
+    var text = "";
+    var i = 0;
+    while (i < cars.length) {
+    text += cars[i] + " ";
+    i++;
+}
+    console.log(text)
+}
